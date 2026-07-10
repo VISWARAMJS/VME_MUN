@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>VME MUN 2026 | Where Diplomacy Becomes Destiny</title>
+    <link rel="stylesheet" href="UI.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+ 
+<div class="scroll-indicator" id="scrollTop">
+    <i class="fas fa-arrow-up"></i>
+</div>
+
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <h1>VME MUN</h1>
+            <span>Aim · Aspire · Achieve</span>
+        </div>
+        <div class="menu-icon" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#committees">Committees</a></li>
+            <li><a href="#Resources">Resources</a></li>
+            <li><a href="#eboard">Secretariat</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a class="btn-outline" id="btn-outline" style="padding: 6px 20px;">Register</a></li>
+        </ul>
+    </div>
+</header>
+<div class="marquee-wrap">
+    <div class="marquee-track">
+        <div class="marquee-content">
+            <span>🔥 WE ARE BACK</span>
+            <span>⚡ VME MUN | EDITION 5</span>
+            <span>🎯 18 COMMITTEES | 600+ DELEGATES</span>
+            <span>🌍 CHENGALPATTU | JULY 24-25, 2026</span>
+            <span>🏆 REGISTRATIONS OPEN</span>
+            
+        </div>
+    </div>
+</div>
+
+
+
+<div class="hero-fullscreen" id="home">
+    <div class="grid-bg"></div>
+    <div class="noise-overlay"></div>
+    <div id="particleZone" class="particle-zone"></div>
+    <div id="flagZone" class="flag-zone"></div>
+    <div id="crisisHeadlineZone" class="headline-zone"></div>
+    
+
+    <div class="hero-center-box">
+        <img src="assets/VME MUN.png" alt = "" class="vme-logo1"></img>
+        <h1>VME MUN</h1>
+        <p>Edition 5 | 2026</p>
+        <button class="btn-crisis" id="crisisBtn">
+            <span>REGISTER NOW</span>
+        </button>
+
+        <div class="countdown-card">
+            <div class="status-hint" id="statusMessage">EVENT STARTS IN</div>
+            <div class="countdown-grid">
+                <div class="time-block">
+                        <div class="time-number" id="daysDisplay">00</div>
+                        <span class="time-label">Days</span>
+                </div>
+                <div class="time-block">
+                        <div class="time-number" id="hoursDisplay">00</div>
+                        <span class="time-label">Hours</span>
+                </div>
+                <div class="time-block">
+                        <div class="time-number" id="minutesDisplay">00</div>
+                        <span class="time-label">Minutes</span>
+                </div>
+                <div class="time-block">
+                        <div class="time-number" id="secondsDisplay">00</div>
+                        <span class="time-label">Seconds</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section id="about">
+    <div class="container">
+        <div class="bento-grid">
+            <div class="bento-item bento-large reveal">
+                <div class="badge">About Conference</div>
+                <h2>A stage for the next generation of world leaders.</h2>
+                <p>VME MUN 2026 brings together 600+ delegates from across the country for 2 days of rigorous debate, critical thinking, and collaborative diplomacy. Join us at Vidya Mandir Estancia on July 24-25.</p>
+                <div style="margin-top: 24px;">
+                    <a class="btn-small" id="btn-small">Register Now →</a>
+                </div>
+            </div>
+            <div class="bento-item stat-card reveal">
+                <div class="stat-number">600+</div>
+                <div class="stat-label">Delegates</div>
+                <i class="fas fa-users stat-icon"></i>
+            </div>
+            <div class="bento-item stat-card reveal">
+                <div class="stat-number">19</div>
+                <div class="stat-label">Committees</div>
+                <i class="fas fa-landmark stat-icon"></i>
+            </div>
+            <div class="bento-item stat-card reveal">
+                <div class="stat-number">2</div>
+                <div class="stat-label">Days of Debate</div>
+                <i class="fas fa-calendar-alt stat-icon"></i>
+            </div>
+            <div class="bento-item stat-card reveal">
+                <div class="stat-number">₹1400</div>
+                <div class="stat-label">Registration Fee</div>
+                <i class="fas fa-ticket-alt stat-icon"></i>
+            </div>
+        </div>
+        <div>
+            <div class="container">
+                <h2 class="title">Teaser</h2><p class="section-sub">A sneak peek into the action-packed experience awaiting you at VME MUN 2026.</p></div>
+                <div class="video">
+                    <iframe 
+                        src="assets/MUN MUN TEASER.mp4" 
+                        width="100%" 
+                        height="500px" 
+                        allow="autoplay" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="committees" class="alt-bg">
+    <div class="container">
+        <div class="section-header reveal"><div class="badge">Committees & Agendas</div><h2 class="section-title">Choose your arena.</h2><p class="section-sub">Eighteen committees spanning Geopolitics, Economics, Human rights, Indian policy, Justice, War, Development and Press.</p></div>
+        
+        <div class="first-ever">
+            <h3 style="font-size: 1.8rem; margin: 12px 0; text-align: center;">Historic Debut Committees</h3>
+            <p style="color: var(--purple-7); text-align: center; margin-bottom: 30px;">Witness history as these prestigious committees make their VME MUN debut</p>
+            <div id="firstgrid" class="featured-committees"></div>
+        </div>
+        <div class="committees-grid" id="committeesGrid"></div>
+    </div>
+</section>
+
+<section class="bg" id="Resources">
+    <div class="container">
+        <div class="section-header reveal"><div class="badge">Resources</div><h2 class="section-title">Resources</h2></div>
+        <div class="LIST">
+            <div class="LIST-item">
+                <div class="LIST-dot"></div>
+                <button class="LIST-content" onclick="window.open('https://docs.google.com/spreadsheets/d/1o-YCi-sd1NwKROUfM8jHJo13f0Rjd-9bEc5SXK57Vz8/edit?gid=1450242430#gid=1450242430', '_blank')">
+                    <h3 class="LIST-title">Country Matrix</h3>
+                    <p class="LIST-desc">A comprehensive list of all the countries participating in VME MUN 2026.</p>
+                </button>
+            </div>
+            <div class="LIST-item">
+                <div class="LIST-dot"></div>
+                <button class="LIST-content" onclick="window.open('https://docs.google.com/spreadsheets/d/1o-YCi-sd1NwKROUfM8jHJo13f0Rjd-9bEc5SXK57Vz8/edit?gid=1450242430#gid=1450242430', '_blank')">
+                    <h3 class="LIST-title">Conference Brochure</h3>
+                    <p class="LIST-desc">A Conference Brochure for VME MUN 2026.</p>
+                </button>
+            </div>
+            <div class="LIST-item">
+                <div class="LIST-dot"></div>
+                <button class="LIST-content" onclick="window.open('https://docs.google.com/spreadsheets/d/1o-YCi-sd1NwKROUfM8jHJo13f0Rjd-9bEc5SXK57Vz8/edit?gid=1450242430#gid=1450242430', '_blank')">
+                    <h3 class="LIST-title">Background Guide</h3>
+                    <p class="LIST-desc">A Background Guide for Committees of VME MUN 2026.</p>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="eboard" class="alt-bg">
+    <div class="container">
+        <div class="section-header reveal">
+            <div class="badge">Meet the Team</div>
+            <h2 class="section-title">The Secretariat</h2>
+            <p class="section-sub">Passionate leaders driving diplomacy forward.
+            </p>
+
+        </div>
+        <div class="eb-grid">
+            <div class="eb-card reveal">
+                <img src="assets/001.JPG" alt="" class="committee-logo">
+                <h3>Mukesh Krishna</h3>
+                <p>Secretary General</p>
+
+            </div>
+            <div class="eb-card reveal">
+                <img src="assets/002.png" alt="" class="committee-logo">
+                <h3>Mugilvannan</h3>
+                <p>Deputy Secretary General</p>
+
+            </div>
+            <div class="eb-card reveal">
+                <img src="assets/003.JPG" alt="" class="committee-logo">
+                <h3>Aadhavan</h3>
+                <p>Director General</p>
+            </div>
+            <div class="eb-card reveal">
+                <img src="assets/004.JPG" alt="" class="committee-logo">
+                <h3>Krishanth</h3>
+                <p>Chief Of Conference</p>
+            </div>
+            <div class="eb-card reveal">
+                <div class="eb-avatar"><i class="fas fa-paper-plane"></i></div>
+                <h3>Mahdeeya Fathima</h3>
+                <p>Chief Of Documentation</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <div class="section-header reveal">
+            <div class="badge">Get in Touch</div>
+            <h2 class="section-title">Reach out to us</h2>
+        </div>
+        
+        <div class="contact-wrapper">
+            <div class="contact-left">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i> 
+                        <span>Vidya Mandir @ Estancia, Potheri, SRM Nagar, Maraimalai Nagar, Tamil Nadu 603202</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>Teacher Coordinator: +91 9677296702 </span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>Secratary General: +91 9789063076 </span>
+                        </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>vidyamandirestanciamun@gmail.com</span>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.2203226652164!2d80.04999496142423!3d12.829034698958276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f70bdd35a23d%3A0xa0635f6c9f43b8e5!2sVidya%20Mandir%20Estancia%2C%20Potheri%2C%20SRM%20Nagar%2C%20Maraimalai%20Nagar%2C%20Tamil%20Nadu%20603202!5e0!3m2!1sen!2sus!4v1783242254710!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </div>
+            
+                <div class="contact-form">
+                    <h3>Send Us A Message</h3>
+                    <input type="text" id="userName" placeholder="Your name *" required>
+                    <input type="email" id="userEmail" placeholder="Email address *" required>
+                    <input type="tel" id="userMobile" placeholder="Mobile number">
+                    <input type="text" id="userInstitution" placeholder="Institution/School">
+                    <textarea id="userMessage" placeholder="Your message *" required></textarea>
+                    <button class="btn-submit" onclick="sendToGoogleSheets()">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+        </div>
+    </div>
+</section>
+<div id="formStatus" style="margin-top: 20px; text-align: center; display: none; padding: 10px; border-radius: 5px;"></div>
+
+
+
+<footer id="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>VME MUN</h3>
+                <p>Aim · Aspire · Achieve </p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/vme_mun/"><i class="fab fa-instagram"></i></a>
+                    <a href=" https://linktr.ee/vmemun26"><i class="fab fa-link"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#committees">Committees</a></li>
+                    <li><a href="#Resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="https://docs.google.com/spreadsheets/d/1o-YCi-sd1NwKROUfM8jHJo13f0Rjd-9bEc5SXK57Vz8/edit?gid=1450242430#gid=1450242430">Country Matrix</a></li>
+                    <li><a href="https://tinyurl.com/mrxwh42x">Conference Brochure</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            Developed by Student of VME
+        </div>
+    </div>
+</footer>
+
+<script src="APP.js"></script>
+</body>
+</html>
